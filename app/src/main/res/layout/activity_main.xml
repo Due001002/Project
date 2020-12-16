@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/btnSendName"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="531dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="151dp"
+            android:backgroundTint="#E870EC"
+            android:text="SEND"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnCalculator"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/edtNameSend"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnCalculator"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="296dp"
+            android:layout_marginTop="531dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="151dp"
+            android:backgroundTint="#E870EC"
+            android:text="CALULATOR"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnNubia"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="605dp"
+            android:layout_marginEnd="280dp"
+            android:layout_marginBottom="76dp"
+            android:backgroundTint="#E870EC"
+            android:text="nubia"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnXaio"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="605dp"
+            android:layout_marginBottom="76dp"
+            android:backgroundTint="#E870EC"
+            android:text="xaio"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnDelete"
+            app:layout_constraintStart_toEndOf="@+id/btnNubia"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="281dp"
+            android:layout_marginTop="605dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="76dp"
+            android:backgroundTint="#E870EC"
+            android:text="delete"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edtNameSend"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#E870EC"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnSendName"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.78" />
+
+        <TextView
+            android:id="@+id/txtNameLayout3"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="221dp"
+            android:gravity="center"
+            android:hint="name3 / value3"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtPointLayout3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="Point"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNameLayout3" />
+
+        <TextView
+            android:id="@+id/txtNameLayout2"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="221dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="40dp"
+            android:gravity="center"
+            android:hint="name2 / value2"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtPointLayout2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="64dp"
+            android:gravity="center"
+            android:hint="point"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNameLayout2" />
+
+        <TextView
+            android:id="@+id/txtNameLayout1"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="345dp"
+            android:layout_marginEnd="130dp"
+            android:layout_marginBottom="346dp"
+            android:gravity="center"
+            android:hint="name / value"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtPointLayout1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="156dp"
+            android:layout_marginBottom="86dp"
+            android:gravity="center"
+            android:hint="point"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnSendName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNameLayout1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
