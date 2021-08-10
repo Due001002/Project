@@ -8,8 +8,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:largeHeap="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".MainActivity">
+        <!--<activity android:name=".Test"></activity>-->
+         <activity android:name=".TestPicture"></activity>
+        <!-- <activity android:name=".TestJu"></activity> -->
+        <!-- <activity android:name=".MainActivity"></activity> -->
+        <!-- <activity android:name=".TestCode"></activity> -->
+        <!-- <activity android:name=".TestCodeJu"></activity> -->
+        <activity android:name=".TestCode">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
